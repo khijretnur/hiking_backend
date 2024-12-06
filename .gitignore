@@ -1,0 +1,63 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+db.sqlite3
+db.sqlite3-journal
+
+# Local environment variables
+.env
+
+# Migrations
+*/migrations/*.py
+*/migrations/*.pyc
+!*/migrations/__init__.py
+
+# Media and static files
+/media/
+/staticfiles/
+
+# Compiled static files
+/static/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Virtual environments
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+.tox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+dist/
+build/
+*.egg-info/
+*.egg
+
